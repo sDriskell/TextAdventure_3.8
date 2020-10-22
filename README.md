@@ -6,12 +6,17 @@ I want this project to be more like legos and less like a model.  I'm pushing to
 *use items
 
 *monster character
+
 *fight monster
+
 *change character parameters based on monster fight
 
+
 *give rooms their own uniqueness
+
 *create loose storyline for game progression
 
 # For Down the road:
 *save functionality
+
 *monsters stored and called from a table
