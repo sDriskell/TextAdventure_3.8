@@ -12,6 +12,8 @@ class Room:
     e_room = None
     w_room = None
 
+    item_found = False
+
     def connect_rooms(self, n, s, e, w):
         """Points to neighboring rooms by direction."""
         self.n_room = n
@@ -31,3 +33,9 @@ class Room:
             return self.w_room
         else:
             return
+
+    def inspect_room(self):
+        if self.item_found is False:
+            print("Found item {}. {}".format(self.item.name, self.item.description))
+        else:
+            print("Nothing in this room is noteworthy.")
