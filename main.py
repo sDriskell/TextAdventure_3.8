@@ -39,7 +39,7 @@ def game():
 
     current_room = t_room1
     game_loop = True
-    character = player.Player(input("Your name? "), [])
+    character = player.Player(input("Your name? "), [], 10, 10, 5, 5)
 
     print("Start the game, {}!".format(character.name))
     while game_loop:

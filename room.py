@@ -1,6 +1,7 @@
 import item
 from dataclasses import dataclass
 
+
 @dataclass()
 class Room:
     name: str
@@ -35,6 +36,7 @@ class Room:
             return
 
     def inspect_room(self):
+        """Search for items in the current room"""
         if self.item_found is False:
             print("Found item {}. {}".format(self.item.name, self.item.description))
         else:
